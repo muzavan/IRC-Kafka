@@ -125,7 +125,7 @@ public final class PATChatClient {
         }
         while(!exit && !(client == null)){
             userInput = cli.nextLine();
-            if(userInput.indexOf(' ')!=-1){
+            if(userInput.indexOf(' ')!=-1 || userInput.indexOf("/EXIT")!=-1){
                 userAction = userInput.substring(0,userInput.indexOf(' '));
                 userMessage = userInput.substring(userInput.indexOf(' ')+1);
                 //System.out.println("Action : "+userAction+"\n"+"Message : "+userMessage);
