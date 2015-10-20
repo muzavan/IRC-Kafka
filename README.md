@@ -1,5 +1,5 @@
 # IRC-Kafka
-Simple chat service , experiment using Apache Kafka and Zooclient
+Simple chat service , experiment using Apache Kafka and Zookeeper
 
 #Created by :
 1. Joshua Bezaleel Abednego (13512013)
@@ -9,7 +9,7 @@ Simple chat service , experiment using Apache Kafka and Zooclient
 Java Development Kit 1.8
 
 #Petunjuk instalasi
-1. Buka IDE yang dimiliki (Netbeans atau Eclipse dan IDE lainnya)
+1. Buka IDE yang dimiliki Netbeans
 
 2. Import project dari src yang ada (source utama terdapat pada direktori src)
 
@@ -18,9 +18,9 @@ Java Development Kit 1.8
 #Testing
 1. Mengirimkan message ke salah satu channel dan mengecek apakah user yang tidak terdapat pada channel tersebut mengirimkan pesan
 
-	a. Jalankan server
+	a. Instance client dapat dijalankan dengan melakukan run file PATChatClient pada package pat.kafka
 	
-	b. Jalankan 3 instance client
+	b. Jalankan tiga instance client
 	
 	c. Pada instance pertama
 	
@@ -46,9 +46,9 @@ Java Development Kit 1.8
 	
 2. Mengirimkan message setelah LEAVE dari sebuah CHANNEL
 
-	a. Jalankan server
+	a. Instance client dapat dijalankan dengan melakukan run file PATChatClient pada package pat.kafka
 	
-	b. Jalankan 2 instance client
+	b. Jalankan tiga instance client
 	
 	c. Pada instance pertama
 	
@@ -80,9 +80,9 @@ Java Development Kit 1.8
 	
 3. Broadcast pesan ketika channel tidak dispesifikasi
 
-	a. Jalankan server
+	a. Instance client dapat dijalankan dengan melakukan run file PATChatClient pada package pat.kafka
 	
-	b. Jalankan 2 instance client
+	b. Jalankan tiga instance client
 	
 	c. Pada instance pertama
 	
